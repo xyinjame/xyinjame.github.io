@@ -1,0 +1,114 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  color: lightgray;
+  background-color: black;
+  text-align: center;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 10px 15px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: #eee;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 0;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:hover,
+a:active {
+  color: #eee;
+}
+
+h1,
+h2 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.content {
+  padding: 20px;
+  margin: 20px;
+}
+
+.aboutme-page {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.index-page {
+    background: url('20250215022956_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(57, 127, 185);
+}
+
